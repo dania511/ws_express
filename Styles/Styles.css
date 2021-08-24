@@ -1,0 +1,53 @@
+#navs{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+#title{
+    margin-bottom: 30px;
+    background-color: rgb(209, 215, 216);
+    display:flex;
+}
+.navsItems{
+    margin-right: 2%;
+    font-size:25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+    background-image: url('https://www.paraclic.tn/modules/smartblog/images/38-home-default.jpg');
+}
+#section1{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center; 
+}
+p{
+    font-size: 25px;
+}
+.card{
+    margin: 10px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;  
+}
+.cardGroup{
+    display: flex;
+    justify-content: start;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+#contact{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.border{
+    border: 1px rgb(85, 77, 77) solid;
+    background-color: rgb(243, 234, 248);
+    border-radius: 5px;
+}
